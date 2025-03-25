@@ -6,42 +6,12 @@
   // Prepare demo data. The data is joined to map using value of 'hc-key'
   // property by default. See API docs for 'joinBy' for more info on linking
   // data and map.
-  const data = [
-    ["punjab", 141],
-    ["maharashtra", 126],
-    ["rajasthan", 122],
-    ["uttar pradesh", 104],
-    ["delhi", 103],
-    ["haryana", 86],
-    ["madhya pradesh", 72],
-    ["tamil nadu", 71],
-    ["gujarat", 69],
-    ["karnataka", 60],
-    ["west bengal", 48],
-    ["telangana", 36],
-    ["kerala", 29],
-    ["andhra pradesh", 25],
-    ["assam", 22],
-    ["odisha", 21],
-    ["bihar", 20],
-    ["chhattisgarh", 20],
-    ["chandigarh", 19],
-    ["jammu and kashmir", 19],
-    ["jharkhand", 18],
-    ["himachal pradesh", 17],
-    ["goa", 13],
-    ["uttarakhand", 11],
-    ["dadra & nagar haveli", 3],
-    ["daman & diu", 2],
-    ["arunanchal pradesh", 3],
-    ["nagaland", 3],
-    ["mizoram", 3],
-    ["sikkim", 2],
-    ["meghalaya", 2],
-    ["manipur", 2],
-    ["puducherry", 2],
-    ["ladakh", 2],
-    ["tripura", 1],
+  var data = [
+    { lat: 26.8538, lon: 80.94533, ticket_id: 2257 },
+    { lat: 30.68605, lon: 76.74355, ticket_id: 2267 },
+    { lat: 25.23545, lon: 73.24045, ticket_id: 2276 },
+    { lat: 11.09675, lon: 79.6533, ticket_id: 2207 },
+    { lat: 24.64644, lon: 75.94171, ticket_id: 2324 },
   ];
 
   // Create the chart
@@ -51,7 +21,7 @@
     },
 
     title: {
-      text: "Live Diesel Generator Tickets",
+      text: "EAMOT Comprehensive AMC for DG in India - Statewise",
     },
 
     // subtitle: {
@@ -72,7 +42,7 @@
     series: [
       {
         data: data,
-        name: "Current Breakdown Tickets",
+        name: "DG Sets Served by EAMOT",
         states: {
           hover: {
             color: "#BADA55",

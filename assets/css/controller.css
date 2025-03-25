@@ -1,0 +1,150 @@
+body {
+  background-color: #eaeaea;
+  font-family: Arial, sans-serif;
+  min-width: 800px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.panel {
+  border: 2px solid #333;
+  background-color: #ffffff;
+  width: 00px;
+  height: 400px;
+  padding: 15px;
+}
+
+.bezel {
+  border: 15px solid #4d4d4d;
+  padding: 20px;
+  background-color: #d9d9d9;
+  position: relative;
+  min-width: 600px;
+  margin-left: 400px;
+}
+
+.display-screen {
+  border-right: 2px solid #333;
+  padding-right: 15px;
+}
+
+.screen-header h3 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.screen-header p {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+}
+
+.screen-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: #d2dbd3;
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+.screen-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.selected {
+  background-color: #626664;
+  color: white;
+  padding: 2px;
+}
+
+.screen-footer {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.indicators p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.status-lights span {
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.green-light {
+  color: green;
+}
+
+.gray-light {
+  color: gray;
+}
+
+.red-light {
+  color: red;
+}
+
+.yellow-light {
+  color: orange;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.manual-btn {
+  background-color: #505050;
+  color: white;
+  width: 70px;
+}
+
+.start-btn {
+  width: 70px;
+}
+
+.auto-btn {
+  background-color: #00aeff;
+  color: white;
+  width: 70px;
+}
+
+.stop-btn {
+  width: 70px;
+}
+
+.cb-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cb-open,
+.cb-close {
+  width: 70px;
+}

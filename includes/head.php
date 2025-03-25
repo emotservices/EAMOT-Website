@@ -52,3 +52,64 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <link rel="stylesheet" type="text/css" href="assets/css/alertify.css">
+  <style>
+        .icon {
+            font-size: 2rem;
+            color: #333;
+        }
+        .feature-box {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            height: 100%;
+        }
+        .feature-box h5 {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+         .table thead th {
+            background-color: #80bdff;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+        .table tbody td {
+            vertical-align: middle;
+        }
+            .feature-box {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+            height: 100%;
+        }
+        .feature-box h5 {
+            font-weight: bold;
+        }
+        .icon {
+            background-color: #007bff;
+            color: white;
+            font-size: 1.5rem;
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .dashboard-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: #e9ecef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
+        .dashboard-placeholder span {
+            font-size: 1.5rem;
+            color: #6c757d;
+        }
+    </style>
